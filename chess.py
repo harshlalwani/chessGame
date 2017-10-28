@@ -10,7 +10,7 @@ class Chess_Board:
             for y in range(8):
 
                 board_y.append('.')
-
+ 
             board_x.append(board_y)
         board_x[7][4] = 'K'
         board_x[7][3] = 'Q'
